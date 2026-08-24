@@ -1,5 +1,7 @@
 # PCB-Maker
 
+> **Moved:** this tool now lives in [studio-tools](https://github.com/edsonpavoni/studio-tools/tree/main/PCB-Maker), with full history. This repository is archived.
+
 Make circuit boards on the ComMarker B6 MOPA, in the studio, the same way twice.
 
 The point is not that it is cheaper than JLCPCB. The point is that a board can ship **inside a sculpture** on the studio's own schedule, and that the laser settings live in a file instead of in someone's memory. The Source lost its JLC order to a shipping date in August 2026; a board that can be made on a Tuesday does not have that failure mode.
