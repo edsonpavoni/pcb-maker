@@ -30,6 +30,7 @@ that is also a drawing — V4 carries "the cave" written into the copper.
 | File | What it is |
 |---|---|
 | `B6-PCB-RECIPE.md` | **The settings.** Five laser layers, run order, powers, speeds, pass counts, the dialed hole cell (70%/8 passes/kerf 0.24), and how each number was measured. |
+| `MATERIAL-QIMOO-FR4.md` | **The material log.** What Qimoo 1.6 mm FR4 does on the B6: proven settings, capability floors, recorded failures, open questions. Append every new bench result here. |
 | `circuit2lbrn.py` | **The main converter.** tscircuit `circuit.json` in, one laser-ready `.lbrn2` out, preflight checks included. `--fit-test` makes the cardboard fit-check file. |
 | `lbrn.py` | Writes `.lbrn2` files and carries the recipe as layer defaults. Pure standard library, no installs. Format reverse-engineered from the reference file. |
 | `negative.py` | Computes the copper-clear region: rasterise copper, grow by the kerf pullback, subtract from the board, march the boundary back out to polygons. Rebuilds its own fill to catch structural mismatch. |

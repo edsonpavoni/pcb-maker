@@ -128,7 +128,11 @@ A copy of both is frozen in `reference/`. **Do not edit those two files.** They 
 
 ## The material this recipe is for
 
-**35 µm copper foil on FR4** (standard 1 oz single-sided clad). This is a different regime from the copper recipes in `projects/B6 Mopa Laser/material-settings.md`, which are for **1.1 mm copper sheet**. Do not mix them.
+**35 µm copper foil on FR4** (standard 1 oz single-sided clad) — specifically Qimoo
+1.6 mm. **The running measurement log for this material is `MATERIAL-QIMOO-FR4.md`**
+(proven settings, capability floors, recorded failures — append new bench results
+there). This is a different regime from the copper recipes in
+`projects/B6 Mopa Laser/material-settings.md`, which are for **1.1 mm copper sheet**. Do not mix them.
 
 | | copper foil on FR4 (this page) | 1.1 mm copper sheet (material-settings.md) |
 |---|---|---|
